@@ -5,7 +5,6 @@ import { authRouter } from "./routes/auth";
 import { postRouter } from "./routes/posts";
 import { profileRouter } from "./routes/profile";
 import { commentsRouter } from "./routes/comment";
-
 import cors from "cors";
 
 const app = express();
