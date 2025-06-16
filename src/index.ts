@@ -20,6 +20,6 @@ app.get("/", (req, res) => {
 });
 
 mongoose.connect(process.env.DB_URL!).then(() => {
-  const PORT = process.env.PORT || '8080'
+  const PORT = process.env.PORT;
   app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 });
